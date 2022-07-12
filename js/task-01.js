@@ -10,7 +10,7 @@ allItems.forEach((element) => {
     const allLi = document.querySelectorAll('li');
     const allLiLng = allLi.length;
 
-    console.log(elementTitle);
-    console.log(allLiLng);
+    console.log(`Category: ${elementTitle}`);
+    console.log(`Elements: ${allLiLng}`);
 });
 

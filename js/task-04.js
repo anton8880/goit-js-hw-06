@@ -24,5 +24,5 @@ const decrement = () => {
     button.span.textContent = counterValue;
 };
 
-button.subscibe.addEventListener("click", increment);
+button.subscribe.addEventListener("click", increment);
 button.add.addEventListener("click", decrement);
