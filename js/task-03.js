@@ -23,3 +23,5 @@ const createGalleryIt = ({ url, alt }) =>
 const gallList = document.querySelector("#gallery");
 gallList.insertAdjacentHTML("afterbegin", gallMarkUp);
 gallList.setAttribute("style", "list-style-type:none; display: flex;");
+
+
